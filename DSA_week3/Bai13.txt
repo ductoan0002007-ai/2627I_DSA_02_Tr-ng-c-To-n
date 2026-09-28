@@ -1,0 +1,11 @@
+Trả lời: Các chuỗi không thể là output của chương trình là: b, c, d.
+
+Giải thích:
+
+Cấu trúc Queue (Hàng đợi) hoạt động theo nguyên tắc FIFO (First-In-First-Out: Vào trước - Ra trước).
+
+Đề bài cho biết các số được thêm vào (enqueue) theo đúng thứ tự tăng dần từ 0 đến 9. Theo nguyên tắc FIFO, phần tử nào xếp hàng trước thì bắt buộc phải được lấy ra (dequeue) trước.
+
+Do đó, trật tự lấy ra phải được bảo toàn tuyệt đối, không có số nào được phép đi ra trước số đã xếp hàng trước nó. Output hợp lệ duy nhất chỉ có thể là chuỗi a (0 1 2 3 4 5 6 7 8 9).
+
+Các chuỗi b, c, d đều vi phạm nguyên tắc này (lấy ra số lớn trong khi số nhỏ hơn chưa được lấy ra) nên hoàn toàn vô lý đối với Queue.

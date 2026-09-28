@@ -1,0 +1,5 @@
+Vòng lặp thứ nhất (while (!q.isEmpty())...):
+Lấy lần lượt các phần tử từ đầu đến cuối của hàng đợi q ra và đẩy vào stack. Do đặc tính của ngăn xếp, phần tử ở đầu hàng đợi sẽ bị ép xuống dưới đáy stack, còn phần tử cuối hàng đợi sẽ nằm chễm chệ trên đỉnh stack.
+
+Vòng lặp thứ hai (while (!stack.isEmpty())...):
+Rút lần lượt các phần tử từ đỉnh stack ra và nhét trở lại vào q. Vì rút từ đỉnh, phần tử vốn ở cuối hàng đợi ban đầu nay lại được lấy ra đầu tiên và trở thành phần tử đứng đầu hàng đợi mới.

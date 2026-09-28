@@ -1,0 +1,19 @@
+b. 4 6 8 7 5 3 2 9 0 1 -> KHÔNG HỢP LỆ
+
+Lỗi tại: ... 9 0 1
+
+Giải thích: Khi số 9 được in ra, các số 0 và 1 vẫn còn trong Stack. Vì 0 vào trước 1 nên 0 nằm dưới đáy, 1 nằm trên. Bắt buộc phải rút 1 ra trước 0 (phải là 9 1 0). Chuỗi in ra 0 rồi mới đến 1 là vô lý.
+
+f. 0 4 6 5 3 8 1 7 2 9 -> KHÔNG HỢP LỆ
+
+Lỗi tại: ... 8 1 7 ...
+
+Giải thích: Tương tự, khi số 8 in ra, số 1 và 7 đang trong Stack (1 nằm dưới, 7 nằm trên). Bắt buộc phải rút 7 ra trước 1. Chuỗi in ra 1 rồi mới tới 7 là vô lý.
+
+g. 1 4 7 9 8 6 5 3 0 2 -> KHÔNG HỢP LỆ
+
+Lỗi tại: ... 3 0 2
+
+Giải thích: Khi số 3 in ra, số 0 và 2 vẫn trong Stack. (0 vào trước nên nằm dưới 2). Bắt buộc phải rút 2 ra trước 0. Chuỗi in ra 0 rồi mới tới 2 là vô lý.
+
+Các dãy còn lại đều hợp lệ 
